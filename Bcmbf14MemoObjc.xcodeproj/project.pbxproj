@@ -14,6 +14,7 @@
 		822C37FA244E4883005E5F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822C37F9244E4883005E5F60 /* Assets.xcassets */; };
 		822C37FD244E4883005E5F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822C37FB244E4883005E5F60 /* LaunchScreen.storyboard */; };
 		822C3800244E4883005E5F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C37FF244E4883005E5F60 /* main.m */; };
+		822C3809244E50BF005E5F60 /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C3808244E50BF005E5F60 /* Memo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		822C37FC244E4883005E5F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		822C37FE244E4883005E5F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		822C37FF244E4883005E5F60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		822C3807244E50BF005E5F60 /* Memo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
+		822C3808244E50BF005E5F60 /* Memo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		822C37E9244E4882005E5F60 /* Bcmbf14MemoObjc */ = {
 			isa = PBXGroup;
 			children = (
+				822C3806244E509D005E5F60 /* Model */,
 				822C37EA244E4882005E5F60 /* AppDelegate.h */,
 				822C37EB244E4882005E5F60 /* AppDelegate.m */,
 				822C37ED244E4882005E5F60 /* SceneDelegate.h */,
@@ -72,6 +76,15 @@
 				822C37F6244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodeld */,
 			);
 			path = Bcmbf14MemoObjc;
+			sourceTree = "<group>";
+		};
+		822C3806244E509D005E5F60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				822C3807244E50BF005E5F60 /* Memo.h */,
+				822C3808244E50BF005E5F60 /* Memo.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822C3809244E50BF005E5F60 /* Memo.m in Sources */,
 				822C3800244E4883005E5F60 /* main.m in Sources */,
 				822C37EC244E4882005E5F60 /* AppDelegate.m in Sources */,
 				822C37EF244E4882005E5F60 /* SceneDelegate.m in Sources */,
