@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		822C37E7244E4882005E5F60 /* Bcmbf14MemoObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bcmbf14MemoObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822C37E7244E4882005E5F60 /* 멍단비 메모objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "멍단비 메모objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		822C37EA244E4882005E5F60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		822C37EB244E4882005E5F60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		822C37ED244E4882005E5F60 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		822C37E8244E4882005E5F60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				822C37E7244E4882005E5F60 /* Bcmbf14MemoObjc.app */,
+				822C37E7244E4882005E5F60 /* 멍단비 메모objc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 			);
 			name = Bcmbf14MemoObjc;
 			productName = Bcmbf14MemoObjc;
-			productReference = 822C37E7244E4882005E5F60 /* Bcmbf14MemoObjc.app */;
+			productReference = 822C37E7244E4882005E5F60 /* 멍단비 메모objc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -296,12 +296,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HBXK2UB5Z3;
 				INFOPLIST_FILE = Bcmbf14MemoObjc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bcmbf14.Bcmbf14MemoObjc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "멍단비 메모objc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -313,12 +314,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HBXK2UB5Z3;
 				INFOPLIST_FILE = Bcmbf14MemoObjc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bcmbf14.Bcmbf14MemoObjc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "멍단비 메모objc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
