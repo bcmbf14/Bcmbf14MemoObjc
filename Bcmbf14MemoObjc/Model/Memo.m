@@ -14,6 +14,7 @@
     self = [super init];
     if ( self != nil) {
         _content = content;
+        _insertDate = [NSDate date];
     }
     return self;
 }
