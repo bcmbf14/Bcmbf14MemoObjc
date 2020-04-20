@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		822C37EC244E4882005E5F60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C37EB244E4882005E5F60 /* AppDelegate.m */; };
 		822C37EF244E4882005E5F60 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C37EE244E4882005E5F60 /* SceneDelegate.m */; };
-		822C37F2244E4882005E5F60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C37F1244E4882005E5F60 /* ViewController.m */; };
 		822C37F5244E4882005E5F60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822C37F3244E4882005E5F60 /* Main.storyboard */; };
 		822C37F8244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 822C37F6244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodeld */; };
 		822C37FA244E4883005E5F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822C37F9244E4883005E5F60 /* Assets.xcassets */; };
@@ -23,8 +22,6 @@
 		822C37EB244E4882005E5F60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		822C37ED244E4882005E5F60 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		822C37EE244E4882005E5F60 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		822C37F0244E4882005E5F60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		822C37F1244E4882005E5F60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		822C37F4244E4882005E5F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		822C37F7244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bcmbf14MemoObjc.xcdatamodel; sourceTree = "<group>"; };
 		822C37F9244E4883005E5F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,8 +64,6 @@
 				822C37EB244E4882005E5F60 /* AppDelegate.m */,
 				822C37ED244E4882005E5F60 /* SceneDelegate.h */,
 				822C37EE244E4882005E5F60 /* SceneDelegate.m */,
-				822C37F0244E4882005E5F60 /* ViewController.h */,
-				822C37F1244E4882005E5F60 /* ViewController.m */,
 				822C37F3244E4882005E5F60 /* Main.storyboard */,
 				822C37F9244E4883005E5F60 /* Assets.xcassets */,
 				822C37FB244E4883005E5F60 /* LaunchScreen.storyboard */,
@@ -150,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				822C3800244E4883005E5F60 /* main.m in Sources */,
-				822C37F2244E4882005E5F60 /* ViewController.m in Sources */,
 				822C37EC244E4882005E5F60 /* AppDelegate.m in Sources */,
 				822C37EF244E4882005E5F60 /* SceneDelegate.m in Sources */,
 				822C37F8244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodeld in Sources */,
