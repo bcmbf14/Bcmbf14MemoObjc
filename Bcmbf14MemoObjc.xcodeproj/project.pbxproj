@@ -15,6 +15,7 @@
 		822C37FD244E4883005E5F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822C37FB244E4883005E5F60 /* LaunchScreen.storyboard */; };
 		822C3800244E4883005E5F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C37FF244E4883005E5F60 /* main.m */; };
 		822C3809244E50BF005E5F60 /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C3808244E50BF005E5F60 /* Memo.m */; };
+		822C380C244E527B005E5F60 /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C380B244E527B005E5F60 /* MemoListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		822C37FF244E4883005E5F60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		822C3807244E50BF005E5F60 /* Memo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
 		822C3808244E50BF005E5F60 /* Memo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
+		822C380A244E527B005E5F60 /* MemoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoListTableViewController.h; sourceTree = "<group>"; };
+		822C380B244E527B005E5F60 /* MemoListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				822C37FE244E4883005E5F60 /* Info.plist */,
 				822C37FF244E4883005E5F60 /* main.m */,
 				822C37F6244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodeld */,
+				822C380A244E527B005E5F60 /* MemoListTableViewController.h */,
+				822C380B244E527B005E5F60 /* MemoListTableViewController.m */,
 			);
 			path = Bcmbf14MemoObjc;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				822C3809244E50BF005E5F60 /* Memo.m in Sources */,
+				822C380C244E527B005E5F60 /* MemoListTableViewController.m in Sources */,
 				822C3800244E4883005E5F60 /* main.m in Sources */,
 				822C37EC244E4882005E5F60 /* AppDelegate.m in Sources */,
 				822C37EF244E4882005E5F60 /* SceneDelegate.m in Sources */,
