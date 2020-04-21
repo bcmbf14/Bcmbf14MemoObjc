@@ -62,7 +62,7 @@
         <!--새 메모-->
         <scene sceneID="vrh-R0-Ggn">
             <objects>
-                <viewController id="rQV-Te-00R" sceneMemberID="viewController">
+                <viewController id="rQV-Te-00R" customClass="ComposeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WoC-zY-d6h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

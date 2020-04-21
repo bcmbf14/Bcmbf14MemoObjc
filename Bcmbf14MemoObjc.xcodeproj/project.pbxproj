@@ -16,6 +16,7 @@
 		822C3800244E4883005E5F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C37FF244E4883005E5F60 /* main.m */; };
 		822C3809244E50BF005E5F60 /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C3808244E50BF005E5F60 /* Memo.m */; };
 		822C380C244E527B005E5F60 /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C380B244E527B005E5F60 /* MemoListTableViewController.m */; };
+		82B8B8BD244F90AF002231EE /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8B8BC244F90AF002231EE /* ComposeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		822C3808244E50BF005E5F60 /* Memo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
 		822C380A244E527B005E5F60 /* MemoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoListTableViewController.h; sourceTree = "<group>"; };
 		822C380B244E527B005E5F60 /* MemoListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoListTableViewController.m; sourceTree = "<group>"; };
+		82B8B8BB244F90AF002231EE /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		82B8B8BC244F90AF002231EE /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				822C37F6244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodeld */,
 				822C380A244E527B005E5F60 /* MemoListTableViewController.h */,
 				822C380B244E527B005E5F60 /* MemoListTableViewController.m */,
+				82B8B8BB244F90AF002231EE /* ComposeViewController.h */,
+				82B8B8BC244F90AF002231EE /* ComposeViewController.m */,
 			);
 			path = Bcmbf14MemoObjc;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				822C380C244E527B005E5F60 /* MemoListTableViewController.m in Sources */,
 				822C3800244E4883005E5F60 /* main.m in Sources */,
 				822C37EC244E4882005E5F60 /* AppDelegate.m in Sources */,
+				82B8B8BD244F90AF002231EE /* ComposeViewController.m in Sources */,
 				822C37EF244E4882005E5F60 /* SceneDelegate.m in Sources */,
 				822C37F8244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodeld in Sources */,
 			);
