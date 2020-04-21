@@ -10,6 +10,18 @@
 
 @interface ComposeViewController ()
 
+
+- (IBAction)close:(id)sender;
+
+
+
+
+
+
+
+
+
+
 @end
 
 @implementation ComposeViewController
@@ -28,5 +40,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)close:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 
 @end
