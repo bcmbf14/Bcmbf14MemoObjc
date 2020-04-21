@@ -50,7 +50,7 @@
                     <navigationItem key="navigationItem" title="멍단비 메모Objc" id="EtS-K9-mrI">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="RxG-oh-TFM">
                             <connections>
-                                <segue destination="uN2-W2-21I" kind="presentation" id="cUd-e1-XQO"/>
+                                <segue destination="uN2-W2-21I" kind="presentation" modalPresentationStyle="fullScreen" id="cUd-e1-XQO"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -64,11 +64,11 @@
             <objects>
                 <viewController id="rQV-Te-00R" customClass="ComposeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WoC-zY-d6h">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sGt-6x-ML9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -86,9 +86,20 @@
                         <viewLayoutGuide key="safeArea" id="JG7-Wl-WRh"/>
                     </view>
                     <navigationItem key="navigationItem" title="새 메모" id="IHW-Nn-W2n">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="LDv-kM-4gf"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="bEQ-uM-rDm"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="LDv-kM-4gf">
+                            <connections>
+                                <action selector="close:" destination="rQV-Te-00R" id="Tld-zx-hbI"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="bEQ-uM-rDm">
+                            <connections>
+                                <action selector="save:" destination="rQV-Te-00R" id="LgQ-Kl-zmL"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="memoTextView" destination="sGt-6x-ML9" id="RUk-Bd-aCT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kcw-Jb-94u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,7 +127,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uN2-W2-21I" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MkH-KM-HUL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
