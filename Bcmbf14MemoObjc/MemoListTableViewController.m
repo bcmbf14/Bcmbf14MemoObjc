@@ -8,6 +8,7 @@
 
 #import "MemoListTableViewController.h"
 #import "Memo.h"
+#import "DetailViewController.h"
 
 @interface MemoListTableViewController ()
 
@@ -16,6 +17,17 @@
 @end
 
 @implementation MemoListTableViewController
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSIndexPath* indexPath = [self.tableView indexPathForCell:(UITableViewCell *)sender];
+    
+    if (indexPath != nil){
+        Memo* target = [[Memo dummyMemoList]objectAtIndex:indexPath.row];
+        DetailViewController* vc = (DetailViewController*)segue.destinationViewController;
+        vc.memo = target;
+    }
+}
+
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
