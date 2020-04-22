@@ -18,6 +18,9 @@
 		822C380C244E527B005E5F60 /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C380B244E527B005E5F60 /* MemoListTableViewController.m */; };
 		82B8B8BD244F90AF002231EE /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8B8BC244F90AF002231EE /* ComposeViewController.m */; };
 		82B8B8C0244F98BF002231EE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B8B8BF244F98BF002231EE /* DetailViewController.m */; };
+		82EDC3952450EE5600C94FE9 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDC3942450EE5600C94FE9 /* DataManager.m */; };
+		82EDC39A2450F1C900C94FE9 /* Memo+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDC3982450F1C900C94FE9 /* Memo+CoreDataClass.m */; };
+		82EDC39B2450F1C900C94FE9 /* Memo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDC3992450F1C900C94FE9 /* Memo+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,12 @@
 		82B8B8BC244F90AF002231EE /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
 		82B8B8BE244F98BF002231EE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		82B8B8BF244F98BF002231EE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		82EDC3932450EE5600C94FE9 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		82EDC3942450EE5600C94FE9 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		82EDC3962450F1C900C94FE9 /* Memo+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		82EDC3972450F1C900C94FE9 /* Memo+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memo+CoreDataClass.h"; sourceTree = "<group>"; };
+		82EDC3982450F1C900C94FE9 /* Memo+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Memo+CoreDataClass.m"; sourceTree = "<group>"; };
+		82EDC3992450F1C900C94FE9 /* Memo+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Memo+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,10 @@
 		822C37DE244E4882005E5F60 = {
 			isa = PBXGroup;
 			children = (
+				82EDC3962450F1C900C94FE9 /* Memo+CoreDataProperties.h */,
+				82EDC3972450F1C900C94FE9 /* Memo+CoreDataClass.h */,
+				82EDC3982450F1C900C94FE9 /* Memo+CoreDataClass.m */,
+				82EDC3992450F1C900C94FE9 /* Memo+CoreDataProperties.m */,
 				822C37E9244E4882005E5F60 /* Bcmbf14MemoObjc */,
 				822C37E8244E4882005E5F60 /* Products */,
 			);
@@ -89,6 +102,8 @@
 				82B8B8BC244F90AF002231EE /* ComposeViewController.m */,
 				82B8B8BE244F98BF002231EE /* DetailViewController.h */,
 				82B8B8BF244F98BF002231EE /* DetailViewController.m */,
+				82EDC3932450EE5600C94FE9 /* DataManager.h */,
+				82EDC3942450EE5600C94FE9 /* DataManager.m */,
 			);
 			path = Bcmbf14MemoObjc;
 			sourceTree = "<group>";
@@ -175,11 +190,14 @@
 				822C3809244E50BF005E5F60 /* Memo.m in Sources */,
 				822C380C244E527B005E5F60 /* MemoListTableViewController.m in Sources */,
 				822C3800244E4883005E5F60 /* main.m in Sources */,
+				82EDC39B2450F1C900C94FE9 /* Memo+CoreDataProperties.m in Sources */,
 				82B8B8C0244F98BF002231EE /* DetailViewController.m in Sources */,
 				822C37EC244E4882005E5F60 /* AppDelegate.m in Sources */,
 				82B8B8BD244F90AF002231EE /* ComposeViewController.m in Sources */,
 				822C37EF244E4882005E5F60 /* SceneDelegate.m in Sources */,
+				82EDC3952450EE5600C94FE9 /* DataManager.m in Sources */,
 				822C37F8244E4882005E5F60 /* Bcmbf14MemoObjc.xcdatamodeld in Sources */,
+				82EDC39A2450F1C900C94FE9 /* Memo+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
