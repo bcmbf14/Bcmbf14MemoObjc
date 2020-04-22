@@ -41,6 +41,14 @@
     [self saveContext];
 }
 
+- (void)deleteMemo:(Memo*)memo{
+    if(memo != nil) {
+        [self.mainContext deleteObject:memo];
+        [self saveContext];
+    }
+}
+
+
 - (NSManagedObjectContext*)mainContext {
     return self.persistentContainer.viewContext;
 }
