@@ -14,6 +14,7 @@
 
 @property (strong, nonatomic) NSDateFormatter* formatter;
 
+@property (weak, nonatomic) IBOutlet UITableView *memoTableView;
 
 @end
 
@@ -50,6 +51,12 @@
     
     ComposeViewController* vc = [[segue.destinationViewController childViewControllers] objectAtIndex:0];
     vc.editTarget = self.memo;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self.memoTableView reloadData];
 }
 
 - (void)viewDidLoad {

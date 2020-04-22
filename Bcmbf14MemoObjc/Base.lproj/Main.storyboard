@@ -75,7 +75,7 @@
                                 <items>
                                     <barButtonItem systemItem="compose" id="Gxf-Iu-BCD">
                                         <connections>
-                                            <segue destination="uN2-W2-21I" kind="presentation" id="lRi-CI-dI6"/>
+                                            <segue destination="uN2-W2-21I" kind="presentation" modalPresentationStyle="fullScreen" id="lRi-CI-dI6"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -137,6 +137,9 @@
                         <viewLayoutGuide key="safeArea" id="Nnv-zT-FEe"/>
                     </view>
                     <navigationItem key="navigationItem" title="메모 보기" id="IVd-kt-MDU"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="0UP-jb-9ek" id="Q39-qf-8ju"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WiF-bN-MKX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,7 +196,7 @@
             <objects>
                 <navigationController id="5FE-wW-ijL" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="SPV-WH-I8b">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -210,7 +213,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uN2-W2-21I" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MkH-KM-HUL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
