@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSMutableArray* memoList;
 
 - (void)fetchMemo;
-
+- (void)addNewMemo:(NSString*)memo;
 @end
 
 NS_ASSUME_NONNULL_END
